@@ -5,20 +5,20 @@ import com.scalpelred.whilechat.commands.Command;
 
 public class Com_SetFloat extends Command {
     public final int Variable;
-    public final float Float;
+    public final float Value;
 
     public Com_SetFloat(int variable, float value) {
         Variable = variable;
-        Float = value;
+        Value = value;
     }
 
     @Override
     public void Run(Program program) {
-        program.setFloat(Variable, Float);
+        program.setFloat(Variable, Value);
     }
 
     @Override
     public String toString(){
-        return "SET " + Variable + " AS " + Float;
+        return "SET " + Variable + " AS " + Value;
     }
 }

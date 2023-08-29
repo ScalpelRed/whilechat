@@ -128,7 +128,7 @@ public final class Parser {
         }
         // сохраняем последний токен, который в конце строки
         tokens.add(new Token(currentToken.toString(), getTokenType(expression, currentToken.toString())));
-//
+
         // убираем пустые токены
         tokens.removeIf(token -> token.Type == TokenType.EMPTY);
 

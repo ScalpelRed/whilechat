@@ -1,0 +1,12 @@
+{
+	"message.lowLevel.loadingFromFile":"Loading low-level program '%s'",
+	"message.lowLevel.compiling":"Compiling program %s at low level",
+	"message.lowLevel.compilingDone":"Low-level compiling done (%f lines)",
+	"message.lowLevel.errorPos":"(at line %f) ",
+	"message.lowLevel.fileNotFound":"Program file not found.",
+	"message.lowLevel.invalidKeyword":"Invalid keyword '%s'",
+	"message.lowLevel.notEnoughTokens":"Not enough tokens for command '%s' (expected %1$d, got %2$d)",
+	"message.lowLevel.unknownCommand":""
+
+
+}

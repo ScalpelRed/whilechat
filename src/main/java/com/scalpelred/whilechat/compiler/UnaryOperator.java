@@ -8,14 +8,12 @@ public class UnaryOperator {
 
     public final Parser.Type ArgType;
     public final Parser.Type OutType;
-    public final String Pattern;
 
     private final BiFunction<Integer, Integer, Command> InstFunc; // TODO rename
 
-    public UnaryOperator(String pattern, Parser.Type argType, Parser.Type outType, BiFunction<Integer, Integer, Command> instFunc) {
+    public UnaryOperator(Parser.Type argType, Parser.Type outType, BiFunction<Integer, Integer, Command> instFunc) {
         ArgType = argType;
         OutType = outType;
-        Pattern = pattern;
         InstFunc = instFunc;
     }
 

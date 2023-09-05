@@ -34,7 +34,7 @@ public class Com_Math extends Command {
     private final float E = (float)Math.E;
 
     @Override
-    public void Run(Program program) {
+    public void run(Program program) {
 
         float arg1 = NeedsArg1 ? program.getFloat(Arg1) : 0;
         float arg2 = NeedsArg2 ? program.getFloat(Arg2) : 0;
@@ -43,6 +43,7 @@ public class Com_Math extends Command {
             case SUM -> arg1 + arg2;
             case SUBTRACT -> arg1 - arg2;
             case MULTIPLY -> arg1 * arg2;
+            case DIVIDE -> arg1 / arg2;
 
             case NEGATE -> -arg1;
             case INVERT -> 1f / arg1;
@@ -58,6 +59,7 @@ public class Com_Math extends Command {
         SUM,
         SUBTRACT,
         MULTIPLY,
+        DIVIDE,
 
         NEGATE,
         INVERT,

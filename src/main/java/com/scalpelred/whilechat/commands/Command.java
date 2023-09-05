@@ -4,5 +4,5 @@ import com.scalpelred.whilechat.Program;
 
 public abstract class Command {
 
-    public abstract void Run(Program program);
+    public abstract void run(Program program);
 }

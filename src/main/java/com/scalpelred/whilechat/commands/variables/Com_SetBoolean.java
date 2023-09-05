@@ -14,7 +14,7 @@ public class Com_SetBoolean extends Command {
     }
 
     @Override
-    public void Run(Program program) {
+    public void run(Program program) {
         program.setBoolean(Variable, Value);
     }
 

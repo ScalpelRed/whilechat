@@ -13,7 +13,7 @@ public class Com_SetFloat extends Command {
     }
 
     @Override
-    public void Run(Program program) {
+    public void run(Program program) {
         program.setFloat(Variable, Value);
     }
 
